@@ -23,22 +23,30 @@
     color: white; /* Adicionar cor branca ao texto */
 }
 
+.card .tags {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px;
+
+}
+
+.card .tags div {
+
+    background: white;
+    color: black;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
 .card img {
     border-radius: 16px;
-}
-
-.character-info {
-    margin-top: 10px;
-}
-
-.info-badge {
-    display: inline-block;
-    margin: 5px 10px;
-    padding: 5px 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    color: #444;  /* Adicionar cor do texto */
-    font-weight: bold; /* Deixar o texto em negrito */
 }
 
 .additional-info {
@@ -48,28 +56,3 @@
     border-radius: 5px;
     color: white; /* Adicionar cor do texto */
 }
-
-
-/* .card {
-    border: 1px solid black;
-    padding: 16px;
-    border-radius: 16px;
-    width: 330px;
-    text-align: center;
-    background: #f0f0f0;
-    transition: all 0.15s ease-in-out;
-}
-
-.card:hover{
-    box-shadow: 3px 3px black;
-    translate: -3px -3px;
-}
-
-.card h2 {
-    font-size: 32px;
-    font-family: sans-serif;
-}
-
-.card img {
-    border-radius: 16px;
-} */
