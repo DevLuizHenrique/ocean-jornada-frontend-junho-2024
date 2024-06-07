@@ -1,4 +1,56 @@
 .card {
+    border: 1px solid #f0f0f0;
+    padding: 16px;
+    border-radius: 16px;
+    width: 330px;
+    text-align: center;
+    background: rgb(36, 35, 35);
+    transition: all 0.15s ease-in-out;
+    cursor: pointer; /* Adicionar cursor pointer */
+}
+
+.card:hover {
+    box-shadow: 3px 3px rgb(128, 127, 127);
+    transform: translate(-3px, -3px); /* Corrigir a propriedade de transformação */
+}
+
+.card h2 {
+    font-size: 32px;
+    font-family: sans-serif;
+    border-left: 5px solid #00bcd4; /* Adicionar borda à esquerda do título */
+    padding-left: 5px; /* Adicionar padding à esquerda */
+    margin-left: 15px;
+    color: white; /* Adicionar cor branca ao texto */
+}
+
+.card img {
+    border-radius: 16px;
+}
+
+.character-info {
+    margin-top: 10px;
+}
+
+.info-badge {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    color: #444;  /* Adicionar cor do texto */
+    font-weight: bold; /* Deixar o texto em negrito */
+}
+
+.additional-info {
+    margin-top: 20px;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    color: white; /* Adicionar cor do texto */
+}
+
+
+/* .card {
     border: 1px solid black;
     padding: 16px;
     border-radius: 16px;
@@ -20,4 +72,4 @@
 
 .card img {
     border-radius: 16px;
-}
+} */
