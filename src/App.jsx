@@ -19,11 +19,9 @@ function App() {
   const itens = [item1, item2, item3];
   return (
     <>
-    <div className='cards'>
-    { itens.map((elemento) =>
-        <Card item={elemento}/>
-    )}
-    </div>
+      <div className='cards'>
+        {itens.map((elemento) => <Card item={elemento} />)}
+      </div>
     </>
   )
 }
