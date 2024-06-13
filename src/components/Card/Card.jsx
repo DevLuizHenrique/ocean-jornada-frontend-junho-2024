@@ -10,7 +10,7 @@ export default function Card(props) {
                 <div>Origem: Terra C-137</div>
             </div>
             <img src={item.image} />
-            <div className="additional-info">Informação adicional</div>
+            {/* <div className="additional-info">Informação adicional</div> */}
         </div>
     )
 }
