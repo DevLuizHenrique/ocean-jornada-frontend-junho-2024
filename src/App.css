@@ -1,9 +1,10 @@
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
 }
+
 .card {
     border: 1px solid #f0f0f0;
     padding: 16px;
@@ -12,12 +13,12 @@
     text-align: center;
     background: rgb(36, 35, 35);
     transition: all 0.15s ease-in-out;
-    cursor: pointer; /* Adicionar cursor pointer */
+    cursor: pointer;/* Adicionar cursor pointer */
 }
 
 .card:hover {
     box-shadow: 3px 3px rgb(128, 127, 127);
-    transform: translate(-3px, -3px); /* Corrigir a propriedade de transformação */
+    transform: translate(-3px, -3px);/* Corrigir a propriedade de transformação */
 }
 
 .card h2 {
